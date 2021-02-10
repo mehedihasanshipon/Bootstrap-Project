@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 24px;
+    /* background-color: #34495E !important; */
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+}
+.navbar .navbar-nav a{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: 15px;
+}
+.navbar .navbar-nav a:hover{
+    color: deepskyblue !important;
+}
+.navbar-toggler{
+    border: 1px solid white !important;
+    color: white !important;
+    transition: all 0.5s ease-in;
+}
+.navbar-toggler:hover{
+    background-color: deepskyblue !important;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+.navbar{
+    background-color: transparent !important; 
+}
+.secondary{
+    background-color: #33495e !important;
+}
+
+.location{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.slider{
+    width: 100%;
+    height: 700px;
+    background: url('./img/slider.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.slider-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    width: 100%;
+    top: 39%;
+}
+.icons .fa{
+    font-size: 35px;
+    margin-right: 10px;
+}
+.cta-div{
+    margin-top: 30px;
+}
+.btn1{
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+}
+.btn1:hover{
+    background-color: #00BFFF;
+    color: white;
+    border-color: #00BFFF;
+}
+.btn2{
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+}
+.btn2:hover{
+    background-color: #FF4500;
+    color: white;
+    border-color: #FF4500;
+}
+
+.social-icons a.fa{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: 7px;
+    transition: all 0.5s ease-in;
+}
+.social-icons a.fa:hover{
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+}
+.slider .text, .slider .typed-cursor{
+    font-size: 50px;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.primary{
+    color: orangered;
+}
+
+/*=======================================
+            Services styles
+=========================================*/
+
+.service-area
+{
+    margin-top: 30px;
+}
+
+.service-area p
+{
+   margin-bottom: -5px;
+}
+
+
+
+
+.service-wrap {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+    
+}
+
+.service-wrap::before, .service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;    
+    
+}
+
+.service-wrap::before{
+    top: -37px;
+    left: 100%;  
+    
+}
+
+.service-wrap:hover:before{    
+    left: -27px;
+    opacity: 1;
+    
+}
+
+
+.service-wrap::after{
+     right: 100%;
+     bottom: -37px;
+    
+}
+
+.service-wrap:hover:after{
+     right: -27px;
+     opacity: 1;
+    
+}
+
+.service-wrap:hover{
+     color: white;    
+}
+
+.service-wrap:h3{
+     color: white;    
+}
+
+
+.service-wrap:hover h3{
+     color: white;    
+}
+
+
+.service-wrap:hover h3:after{
+     background-color: white;    
+}
+
+.service-icon i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    
+}
+
+
+.service-wrap:hover .service-icon i{
+    
+    transform:rotate(360deg);
+}
+
+.service-wrap h3
+{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+
+.service-wrap p
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.row.no-gutter [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-wrapper{
+    overflow: hidden;
+}
+.img-wrapper img{
+    transition: transform 0.5s ease;
+    width: 100%;
+    
+}
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+.team-member{
+    margin: 0 25px;
+}
+.team-member-info{
+    padding: 10px 0 30px 0;
+} 
+h4.team-member-name{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+h4.team-member-designation{
+    color: deepskyblue;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.social-list{
+    padding-left: 0;
+}
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.social-list i{
+    color: gray;
+    font-size: 20px;
+    padding-right: 15px;
+}
